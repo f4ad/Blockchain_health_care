@@ -10,7 +10,7 @@ This application will ask the user to use three processes, and the program shoul
 I used JSON ' JavaScript Object Notation' to store and interchange the data between processes [ 0, 1,2] to contribute to saving or updating the ledger and verifying and adding data. Thus, the Blockchain.java program will create a JSON file to store all verified blocks on it. 
 
 ## 1. Name / Date:
-Student Name : Fahad Al Summan.
+Name : Fahad Al Summan.
 Date: 25 / 10 / 2022
 ## 2. Java version used :
 18.0.2
@@ -47,7 +47,7 @@ e.g.:
 
 ## 5. Notes:
     When BlockChain 0, BlockChain 1, BlockChain 2 start, the program will start from many servers [Main server]-> that responsilbe for lanshing all other server.
-    Then, the program will send the Public keys which were generated to all nodes -> 4710, 4711, and 4712.
+    Then, the program will send the Public keys which were generated to all nodes -> 4710, 4711, and 4712. <br>
     Next, the program store the genius block to the ledger with fake data => NOTE: the data that I used my name and my information.
     Next, the program will read all three files BlockInput0,BlockInput1, and BlockInput2, and the program will extract all information.
     Then, the program will multicast unverified blocks -> that extracted recently from txt files |> 4810, 4811,4812.
